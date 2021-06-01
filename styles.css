@@ -1,0 +1,1145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+           * {
+                margin: 0;
+                padding: 0;
+                
+            }
+            
+            
+
+            section
+            {   
+                position: relative;
+                background-color: rgb(33, 45, 56);
+                width: 100%;
+                height: 100vh;
+                overflow: hidden;
+                
+            }
+
+            .wave
+            {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+                background: url(./img/wave.png);
+                background-size: 1000px 100px;
+                
+            }
+
+            
+
+            .wave1
+            {
+                animation: animate 5s linear infinite;
+                z-index: 1000;
+                opacity: 1;
+                animation-delay: 0s;
+                bottom:0;
+                
+            }
+            .wave2
+            {
+                animation: animate2 7s linear infinite;
+                z-index: 999;
+                opacity: 0.7;
+                animation-delay: 0s;
+                bottom: 15;
+                
+            }
+            .wave3
+            {
+                animation: animate3 4s linear infinite;
+                z-index: 998;
+                opacity: 0.5;
+                animation-delay: 0s;
+                bottom: 3;
+                
+            }
+            .wave4
+            {
+                animation: animate4 2s linear infinite;
+                z-index: 997;
+                opacity: 0.2;
+                animation-delay: 0s;
+                bottom: 2;
+                
+            }
+            @keyframes animate
+            {
+                0%
+                {
+                    background-position-x: 0px;
+                }
+
+                100%
+                {
+                  background-position-x: 1000px;
+                }
+            }
+
+            @keyframes animate2
+            {
+                0%
+                {
+                    background-position-x: 0px;
+                }
+
+                100%
+                {
+                  background-position-x: -1000px;
+                }
+            }
+
+            @keyframes animate3
+            {
+                0%
+                {
+                    background-position-x: 0px;
+                }
+
+                100%
+                {
+                  background-position-x: 1000px;
+                }
+            }
+
+            @keyframes animate4
+            {
+                0%
+                {
+                    background-position-x: 0px;
+                }
+
+                100%
+                {
+                  background-position-x: -1000px;
+                }
+            }
+
+.navbar ul 
+{
+    display: flex;
+    align-items: end;
+    padding-left: 20px;
+}
+
+.navbar-brand
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.nav-item
+{
+   
+    
+    border-radius: 10px;
+    padding-left: 10px;
+    
+}
+
+.nav-item a
+{
+    background: transparent;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.nav-item .link:hover
+{
+    background: #ef6603;
+    border-radius: 20px;
+}
+
+
+.nav-item:hover
+{
+    
+    cursor: pointer;
+}
+
+.collapse .logsing
+{
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+
+.carousel-caption h1
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.carousel-caption p
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 21px;  
+}
+
+.carousel-caption button
+{
+    border-radius: 30px;
+    padding: 10px 45px 10px 45px;
+    border: 3px solid #ef6603;
+    color: floralwhite;
+    font-weight: 600;
+}
+
+.carousel-caption button:hover
+{
+    border: 3px solid #ef6603;
+    background: #ef6603;
+    color: floralwhite;
+}
+
+.about
+{
+    font-weight: 500;
+}
+
+.head-section .line
+{
+    height: 1px;
+    width: 130px;
+    background: #ef6603;
+    position: absolute;
+    margin-left:10px ;
+    margin-top: 10px;
+}
+
+.head-section h2
+{
+    font-weight: 900;
+    font-size: 35px;
+}
+.about p
+{
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about ul li
+{
+    
+    list-style: none;
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+    
+
+
+.about ul
+{
+    padding: 0px;
+}
+
+.about ul li i
+{
+    position: absolute;
+    left: 0;
+    top: 20px;
+   
+}
+.about .fa-check-double
+{
+    color:#ef6603 ;
+}
+
+.about2 button
+{
+    
+    border-radius: 5px;
+    padding: 7px 33px;
+    border: 3px solid #ef6603;
+    font-weight: 600;
+    color: #ef6603;
+}
+
+.about2 button:hover
+{
+    background: #ef6603;
+    color: floralwhite;
+}
+
+
+
+.customtab li a
+{
+    padding:15px;
+    border-radius: 0px;
+    border: 2px solid #ef6603;
+    color:rgb(22, 22, 22) ; 
+    height: 100px;
+    overflow: hidden;
+    font-family:'Poppins', sans-serif ;
+    display: flex;
+                                                                    
+}
+
+.customtab span
+{
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.f_o_f h5
+{
+    font-family: 'poppins',sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+
+.f_o_f i
+{
+    color:rgb(61, 61, 61) ;
+    font-size: 17px;
+}
+
+.f_o_f li
+{
+    list-style: none;
+    padding-top: 20px;
+}
+
+.f_o_f .fa-check-double
+{
+    color:#ef6603 ;
+}
+
+.f_o_f p
+{
+    color:rgb(61, 61, 61) ;
+}
+
+.bg
+{
+    background: rgb(17, 24, 31);
+    position: relative;
+    height: auto;
+    padding: 30px;
+}
+
+.bg p
+{
+    font-family:"Open Sans", sans-serif;
+}
+
+.calltoact
+{
+    padding: 8px 35px;
+    background: #ef6603;
+    color: floralwhite;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    font-family: 'poppins',sans-serif;
+}
+
+.calltoact:hover
+{
+    background: floralwhite;
+    color:#ef6603;
+}
+
+.card
+{
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+/*.cardhover:hover
+{
+    margin-top: -10px;
+    transition: all 0.4s ease-in-out;
+
+}*/
+
+ 
+
+.icon1
+{
+    position: relative;
+    left: -62px;
+    top: 30px;
+    color: rgb(204, 190, 0);
+}
+
+.icon2
+{
+    position: relative;
+    left: -62px;
+    top: 30px;
+    color: rgb(207, 0, 0);
+}
+
+.icon3
+{
+    position: relative;
+    left: -62px;
+    top: 30px;
+    color: rgb(56, 0, 78);
+}
+
+  
+@media screen and (max-width:768px)
+{
+    .card
+    {
+        margin-bottom: 30px;
+    }
+}
+
+/*
+
+.app1
+{
+    background-image: url(./portfolio-1.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 360px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app1:hover
+{
+    background-size: 150%;
+}
+
+
+
+.app2
+{
+    background-image: url(./portfolio-2.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 238px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app2:hover
+{
+    background-size: 140%;
+}
+
+.app3
+{
+    background-image: url(./portfolio-3.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 200px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app3:hover
+{
+    background-size: 140%;
+}
+
+.app4
+{
+    background-image: url(./portfolio-4.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 235px;
+    margin-top: 25px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app4:hover
+{
+    background-size: 140%;
+}
+
+.app5
+{
+    background-image: url(./portfolio-5.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 532px;
+    margin-top: 25px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app5:hover
+{
+    background-size: 140%;
+}
+
+.app6
+{
+    background-image: url(./portfolio-6.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 529px;
+    margin-top: 25px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app6:hover
+{
+    background-size: 140%;
+}
+
+.app7
+{
+    background-image: url(./portfolio-7.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 231px;
+    margin-top: 25px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app7:hover
+{
+    background-size: 140%;
+}
+
+.app8
+{
+    background-image: url(./portfolio-8.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 231px;
+    margin-top: 25px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app8:hover
+{
+    background-size: 140%;
+}
+
+.app9
+{
+    background-image: url(./portfolio-9.jpg);
+    position: relative;
+    background-size: 100%;
+    left: 0;
+    height: 236px;
+    margin-top: 25px;
+    background-position: center;
+    transition-duration: 1s;
+}
+
+.app9:hover
+{
+    background-size: 140%;
+}*/
+
+.app1
+{
+    overflow: hidden;
+    
+}
+
+
+.feature1
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature1:hover
+{
+    transform: scale(1.5);
+}
+
+.app2
+{
+    overflow: hidden;
+}
+
+
+.feature2
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature2:hover
+{
+    transform: scale(1.5);
+}
+
+.app3
+{
+    overflow: hidden;
+}
+
+
+.feature3
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature3:hover
+{
+    transform: scale(1.5);
+}
+
+
+
+.app4
+{
+    margin-top: 25px;
+    overflow: hidden;
+
+}
+
+.feature4
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature4:hover
+{
+    transform: scale(1.5);
+}
+
+.app5
+{
+    margin-top: -97px;
+    overflow: hidden;
+}
+
+.feature5
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature5:hover
+{
+    transform: scale(1.5);
+}
+
+.app6
+{
+    margin-top: -136px;
+    overflow: hidden;
+}
+
+.feature6
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature6:hover
+{
+    transform: scale(1.5);
+}
+
+.app7
+{
+    margin-top: -150px;
+    overflow: hidden;
+}
+
+.feature7
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature7:hover
+{
+    transform: scale(1.5);
+}
+
+.app8
+{
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.feature8
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature8:hover
+{
+    transform: scale(1.5);
+}
+
+.app9
+{
+    margin-top: -17px;
+    overflow: hidden;
+}
+
+.feature9
+{
+    margin-top:px;
+    
+    width: 100%;
+    transition-duration: 1s;
+}
+
+.feature9:hover
+{
+    transform: scale(1.5);
+}
+
+
+@media screen and (max-width:1199px)
+{
+        .app5
+        {
+            margin-top: -77px;
+        }
+
+        .app6
+        {
+            margin-top: -113px;
+        }
+
+        .app7
+        {
+            margin-top: -123px;
+        }
+
+        .app9
+        {
+            margin-top: -13px;
+        }
+}
+
+
+@media screen and (max-width:991px)
+{
+    .app4
+        {
+            margin-top: 25px;
+        }
+
+    .app5
+        {
+            margin-top: -53px;
+        }
+
+        .app6
+        {
+            margin-top: -76px;
+        }
+
+        .app7
+        {
+            margin-top: -77px;
+        }
+
+        .app9
+        {
+            margin-top: -4px;
+        }
+}
+
+@media screen and (max-width:786px)
+{
+    /*.app2
+    {
+        margin-top: 25px;
+    }
+
+    .app3
+    {
+        margin-top: 25px;
+    }*/
+
+        .app2
+        {
+            margin-top: 25px;
+        }
+        
+        .app3
+        {
+            margin-top: 25px;
+        }
+
+
+        .app5
+        {
+            margin-top: -24px;
+        }
+
+        .app6
+        {
+            margin-top: -47px;
+        }
+
+        .app7
+        {
+            margin-top: -106px;
+        }
+
+        .app9
+        {
+            margin-top: px;
+        }
+
+
+}
+
+
+@media screen and (max-width:766px) 
+{
+    .app2
+        {
+            margin-top: 25px;
+        }
+
+        .app3
+        {
+            margin-top: px;
+        }
+
+        .app5
+        {
+            margin-top: 25px;
+        }
+
+        .app6
+        {
+            margin-top: 25px;
+        } 
+        
+        .app7
+        {
+            margin-top: 25px;
+        } 
+
+        .app9
+        {
+            margin-top: 25px;
+        } 
+}
+
+.text1
+{
+    width: 356px;
+    height: 50px;
+    background: black;
+    
+    position: absolute;
+    
+    transition-duration: 1s;
+}
+
+.card-border
+{
+    border: solid 2px #ef6603;
+}
+
+.head{
+    background:#ef6603;
+}
+.card-content span
+{
+    color:#ef6603;
+}
+
+.card-footer button
+{
+    background: #ef6603;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 30px;
+}
+
+.card-footer button:hover
+{
+    background: #ff842c;
+}
+.accordion-button
+{
+    border: none;
+    
+}
+
+.accordion-button:hover
+{
+    color: #ef6603;
+}
+
+.accordion-header p
+{
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.image1
+{
+    width: 100%;
+    height: 300px; 
+    background: url(./img/team-1.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
+
+.main
+{
+    overflow: hidden;
+    height: 390px;
+    
+}
+
+.main p
+{
+    padding: 15px;
+}
+
+.hover{
+    
+    width: 100%;
+    opacity: 0;
+    height: 450px;
+    margin-top: -450px;
+    z-index: -10;
+    transition-duration: 1s;overflow: hidden;
+}
+
+.hover h2
+{
+    margin-top: 250px;
+}
+
+.hover:hover
+{
+    opacity: 1;
+    margin-top: -400px;
+}
+
+.image2
+{
+    width: 100%;
+    height: 300px;
+    
+    background: url(./img/team-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.image3
+{
+    width: 100%;
+    height: 300px;
+    background: url(./img/team-3.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.image4
+{
+    width: 100%;
+    height: 300px;
+    
+    background: url(./img/team-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.locatio .fa-compass
+{
+    width: 44px;
+    height: 44px;
+    background: rgb(255, 215, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    color: #ef6603;
+    padding: 12px;
+}
+
+.locatio .fa-compass:hover
+{
+    color: floralwhite;
+    background: #ef6603;
+}
+
+.locatio .fa-envelope
+{
+    width: 44px;
+    height: 44px;
+    background: rgb(255, 215, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    color: #ef6603;
+    padding: 12px;
+}
+
+.locatio .fa-envelope:hover
+{
+    color: floralwhite;
+    background: #ef6603;
+}
+
+.locatio .fa-mobile-alt
+{
+    width: 44px;
+    height: 44px;
+    background: rgb(255, 215, 178);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.2s ease-in-out;
+    color: #ef6603;
+    padding: 12px;
+}
+
+.locatio .fa-mobile-alt:hover
+{
+    color: floralwhite;
+    background: #ef6603;
+}
+.buton
+{
+    background-color:#ef6603 ;
+    border: 1px solid #ef6603;
+    color: floralwhite;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.buton:hover
+{
+    color: floralwhite;
+    background-color: #fa8029;
+    border: 1px solid #fa8029;
+
+}
+
+.footer-icon h2 i
+{
+    color:#ef6603;
+    cursor:pointer;
+}
+
+                            /*owl carousel*/
+
+
+
+.img-area
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    margin-top:5px ;
+
+}
+
+
+.img-area img
+{
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.content p
+{
+    text-align: center;
+    padding: 20px;
+}
+.content-area .content .fa-quote-left
+
+{
+    color: #ff842c;
+}
+
+.content-area .content .fa-quote-right
+
+{
+    color: #ff842c;
+}
+.owl-dots
+{
+    text-align: center;
+    margin-top: 3%;
+}
+.owl-dot
+{
+    display: inline-block;
+    width: 20px !important;
+    height: 20px !important;
+    background: floralwhite !important;
+    border: 1px solid #ef6603 !important;
+    border-radius: 50%;
+    margin: 0px 10px;
+}
+
+.owl-dot.active
+{
+    background: #ef6603 !important;
+    box-shadow: none;
+    border: none;
+}
+                             /*owl carousel end*/
